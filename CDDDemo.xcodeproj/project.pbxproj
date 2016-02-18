@@ -1,0 +1,805 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67109AB61C6228AF00C7251E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67109AB51C6228AF00C7251E /* main.m */; };
+		67109AB91C6228AF00C7251E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67109AB81C6228AF00C7251E /* AppDelegate.m */; };
+		67109ABC1C6228AF00C7251E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67109ABB1C6228AF00C7251E /* ViewController.m */; };
+		67109ABF1C6228AF00C7251E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67109ABD1C6228AF00C7251E /* Main.storyboard */; };
+		67109AC11C6228AF00C7251E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67109AC01C6228AF00C7251E /* Assets.xcassets */; };
+		67109AC41C6228AF00C7251E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67109AC21C6228AF00C7251E /* LaunchScreen.storyboard */; };
+		67109ACF1C6228AF00C7251E /* CDDDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67109ACE1C6228AF00C7251E /* CDDDemoTests.m */; };
+		67109ADA1C6228AF00C7251E /* CDDDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67109AD91C6228AF00C7251E /* CDDDemoUITests.m */; };
+		67109AED1C622C2200C7251E /* CDDContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 67109AEC1C622C2200C7251E /* CDDContext.m */; };
+		67109AF01C62F93000C7251E /* NSObject+CDD.m in Sources */ = {isa = PBXBuildFile; fileRef = 67109AEF1C62F93000C7251E /* NSObject+CDD.m */; };
+		67109AF31C62F97400C7251E /* UIView+CDD.m in Sources */ = {isa = PBXBuildFile; fileRef = 67109AF21C62F97400C7251E /* UIView+CDD.m */; };
+		67109AFE1C63033B00C7251E /* CDDDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67109AFD1C63033B00C7251E /* CDDDemoController.m */; };
+		67109B011C63034E00C7251E /* CDDDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67109B001C63034E00C7251E /* CDDDemoView.m */; };
+		67109B091C632CA200C7251E /* CDDDemoDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 67109B081C632CA200C7251E /* CDDDemoDataHandler.m */; };
+		67109B0C1C632CB500C7251E /* CDDDemoBusinessObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 67109B0B1C632CB500C7251E /* CDDDemoBusinessObject.m */; };
+		67109B161C63344200C7251E /* MessageCellBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 67109B151C63344200C7251E /* MessageCellBase.m */; };
+		67109B191C63345500C7251E /* MessageCellText.m in Sources */ = {isa = PBXBuildFile; fileRef = 67109B181C63345500C7251E /* MessageCellText.m */; };
+		67109B1F1C6336C100C7251E /* ChatMessageBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 67109B1E1C6336C100C7251E /* ChatMessageBase.m */; };
+		67109B221C6336DB00C7251E /* ChatMessageText.m in Sources */ = {isa = PBXBuildFile; fileRef = 67109B211C6336DB00C7251E /* ChatMessageText.m */; };
+		67109B251C634A6500C7251E /* CDDDemoInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67109B241C634A6500C7251E /* CDDDemoInputView.m */; };
+		672E89A31C73585E008F0EA7 /* CDDUserDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 672E89A21C73585E008F0EA7 /* CDDUserDetailController.m */; };
+		672E89A91C735AC4008F0EA7 /* CDDUserDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 672E89A81C735AC4008F0EA7 /* CDDUserDetailView.m */; };
+		672E89AC1C735AFB008F0EA7 /* CDDUserDetailDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 672E89AB1C735AFB008F0EA7 /* CDDUserDetailDataHandler.m */; };
+		672E89AF1C735B1C008F0EA7 /* CDDUserDetailBusinessObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 672E89AE1C735B1C008F0EA7 /* CDDUserDetailBusinessObject.m */; };
+		676339D51C7563D300A4F374 /* CDDMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 676339D41C7563D300A4F374 /* CDDMutableArray.m */; };
+		676339D81C75AB6100A4F374 /* UserProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 676339D71C75AB6100A4F374 /* UserProfile.m */; };
+		90D1CB7ECCF6F64449FC071D /* libPods-CDDDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B41868BD5E74FA109D1FFB /* libPods-CDDDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67109ACB1C6228AF00C7251E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67109AA91C6228AF00C7251E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67109AB01C6228AF00C7251E;
+			remoteInfo = CDDDemo;
+		};
+		67109AD61C6228AF00C7251E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67109AA91C6228AF00C7251E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67109AB01C6228AF00C7251E;
+			remoteInfo = CDDDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67109AB11C6228AF00C7251E /* CDDDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDDDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67109AB51C6228AF00C7251E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67109AB71C6228AF00C7251E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		67109AB81C6228AF00C7251E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		67109ABA1C6228AF00C7251E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		67109ABB1C6228AF00C7251E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		67109ABE1C6228AF00C7251E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67109AC01C6228AF00C7251E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67109AC31C6228AF00C7251E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67109AC51C6228AF00C7251E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67109ACA1C6228AF00C7251E /* CDDDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDDDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67109ACE1C6228AF00C7251E /* CDDDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDDDemoTests.m; sourceTree = "<group>"; };
+		67109AD01C6228AF00C7251E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67109AD51C6228AF00C7251E /* CDDDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDDDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67109AD91C6228AF00C7251E /* CDDDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDDDemoUITests.m; sourceTree = "<group>"; };
+		67109ADB1C6228AF00C7251E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67109AEB1C622C2200C7251E /* CDDContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDDContext.h; sourceTree = "<group>"; };
+		67109AEC1C622C2200C7251E /* CDDContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDDContext.m; sourceTree = "<group>"; };
+		67109AEE1C62F93000C7251E /* NSObject+CDD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CDD.h"; sourceTree = "<group>"; };
+		67109AEF1C62F93000C7251E /* NSObject+CDD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CDD.m"; sourceTree = "<group>"; };
+		67109AF11C62F97400C7251E /* UIView+CDD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CDD.h"; sourceTree = "<group>"; };
+		67109AF21C62F97400C7251E /* UIView+CDD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CDD.m"; sourceTree = "<group>"; };
+		67109AFB1C6301C500C7251E /* CDDDemo_Prefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDDDemo_Prefix.h; sourceTree = "<group>"; };
+		67109AFC1C63033B00C7251E /* CDDDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDDDemoController.h; sourceTree = "<group>"; };
+		67109AFD1C63033B00C7251E /* CDDDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDDDemoController.m; sourceTree = "<group>"; };
+		67109AFF1C63034E00C7251E /* CDDDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDDDemoView.h; sourceTree = "<group>"; };
+		67109B001C63034E00C7251E /* CDDDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDDDemoView.m; sourceTree = "<group>"; };
+		67109B071C632CA200C7251E /* CDDDemoDataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDDDemoDataHandler.h; sourceTree = "<group>"; };
+		67109B081C632CA200C7251E /* CDDDemoDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDDDemoDataHandler.m; sourceTree = "<group>"; };
+		67109B0A1C632CB500C7251E /* CDDDemoBusinessObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDDDemoBusinessObject.h; sourceTree = "<group>"; };
+		67109B0B1C632CB500C7251E /* CDDDemoBusinessObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDDDemoBusinessObject.m; sourceTree = "<group>"; };
+		67109B111C63326800C7251E /* CDDDemoDataHandlerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDDDemoDataHandlerProtocol.h; sourceTree = "<group>"; };
+		67109B121C63327800C7251E /* CDDDemoBusinessObjectProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDDDemoBusinessObjectProtocol.h; sourceTree = "<group>"; };
+		67109B141C63344200C7251E /* MessageCellBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageCellBase.h; sourceTree = "<group>"; };
+		67109B151C63344200C7251E /* MessageCellBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageCellBase.m; sourceTree = "<group>"; };
+		67109B171C63345500C7251E /* MessageCellText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageCellText.h; sourceTree = "<group>"; };
+		67109B181C63345500C7251E /* MessageCellText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageCellText.m; sourceTree = "<group>"; };
+		67109B1D1C6336C100C7251E /* ChatMessageBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatMessageBase.h; sourceTree = "<group>"; };
+		67109B1E1C6336C100C7251E /* ChatMessageBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatMessageBase.m; sourceTree = "<group>"; };
+		67109B201C6336DB00C7251E /* ChatMessageText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatMessageText.h; sourceTree = "<group>"; };
+		67109B211C6336DB00C7251E /* ChatMessageText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatMessageText.m; sourceTree = "<group>"; };
+		67109B231C634A6500C7251E /* CDDDemoInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDDDemoInputView.h; sourceTree = "<group>"; };
+		67109B241C634A6500C7251E /* CDDDemoInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDDDemoInputView.m; sourceTree = "<group>"; };
+		672E89A11C73585E008F0EA7 /* CDDUserDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDDUserDetailController.h; sourceTree = "<group>"; };
+		672E89A21C73585E008F0EA7 /* CDDUserDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDDUserDetailController.m; sourceTree = "<group>"; };
+		672E89A71C735AC4008F0EA7 /* CDDUserDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDDUserDetailView.h; sourceTree = "<group>"; };
+		672E89A81C735AC4008F0EA7 /* CDDUserDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDDUserDetailView.m; sourceTree = "<group>"; };
+		672E89AA1C735AFB008F0EA7 /* CDDUserDetailDataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDDUserDetailDataHandler.h; sourceTree = "<group>"; };
+		672E89AB1C735AFB008F0EA7 /* CDDUserDetailDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDDUserDetailDataHandler.m; sourceTree = "<group>"; };
+		672E89AD1C735B1C008F0EA7 /* CDDUserDetailBusinessObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDDUserDetailBusinessObject.h; sourceTree = "<group>"; };
+		672E89AE1C735B1C008F0EA7 /* CDDUserDetailBusinessObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDDUserDetailBusinessObject.m; sourceTree = "<group>"; };
+		676339D31C7563D300A4F374 /* CDDMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDDMutableArray.h; sourceTree = "<group>"; };
+		676339D41C7563D300A4F374 /* CDDMutableArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDDMutableArray.m; sourceTree = "<group>"; };
+		676339D61C75AB6100A4F374 /* UserProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserProfile.h; sourceTree = "<group>"; };
+		676339D71C75AB6100A4F374 /* UserProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserProfile.m; sourceTree = "<group>"; };
+		676339DD1C75BA0F00A4F374 /* CDDUserDetailBusinessObjectProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDDUserDetailBusinessObjectProtocol.h; sourceTree = "<group>"; };
+		676339E01C75BAAC00A4F374 /* CDDUserDetailDataHandlerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDDUserDetailDataHandlerProtocol.h; sourceTree = "<group>"; };
+		69B41868BD5E74FA109D1FFB /* libPods-CDDDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CDDDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8975E7DC82D56E4D93CF4552 /* Pods-CDDDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDDDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CDDDemo/Pods-CDDDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B4A8C0CDA782888958471353 /* Pods-CDDDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDDDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CDDDemo/Pods-CDDDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67109AAE1C6228AF00C7251E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D1CB7ECCF6F64449FC071D /* libPods-CDDDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67109AC71C6228AF00C7251E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67109AD21C6228AF00C7251E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67109AA81C6228AF00C7251E = {
+			isa = PBXGroup;
+			children = (
+				67109AE71C6228FD00C7251E /* CDD */,
+				67109AB31C6228AF00C7251E /* CDDDemo */,
+				67109ACD1C6228AF00C7251E /* CDDDemoTests */,
+				67109AD81C6228AF00C7251E /* CDDDemoUITests */,
+				67109AB21C6228AF00C7251E /* Products */,
+				FAD24CA7629DF2F1B5FB7A87 /* Pods */,
+				CF51AA5EBC841FD21C07C3BB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		67109AB21C6228AF00C7251E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67109AB11C6228AF00C7251E /* CDDDemo.app */,
+				67109ACA1C6228AF00C7251E /* CDDDemoTests.xctest */,
+				67109AD51C6228AF00C7251E /* CDDDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67109AB31C6228AF00C7251E /* CDDDemo */ = {
+			isa = PBXGroup;
+			children = (
+				67109AF41C6300BB00C7251E /* DemoController */,
+				672E89A01C735832008F0EA7 /* UserDetailController */,
+				67109AB71C6228AF00C7251E /* AppDelegate.h */,
+				67109AB81C6228AF00C7251E /* AppDelegate.m */,
+				67109ABA1C6228AF00C7251E /* ViewController.h */,
+				67109ABB1C6228AF00C7251E /* ViewController.m */,
+				67109ABD1C6228AF00C7251E /* Main.storyboard */,
+				67109AC01C6228AF00C7251E /* Assets.xcassets */,
+				67109AC21C6228AF00C7251E /* LaunchScreen.storyboard */,
+				67109AC51C6228AF00C7251E /* Info.plist */,
+				67109AB41C6228AF00C7251E /* Supporting Files */,
+			);
+			path = CDDDemo;
+			sourceTree = "<group>";
+		};
+		67109AB41C6228AF00C7251E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67109AB51C6228AF00C7251E /* main.m */,
+				67109AFB1C6301C500C7251E /* CDDDemo_Prefix.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67109ACD1C6228AF00C7251E /* CDDDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				67109ACE1C6228AF00C7251E /* CDDDemoTests.m */,
+				67109AD01C6228AF00C7251E /* Info.plist */,
+			);
+			path = CDDDemoTests;
+			sourceTree = "<group>";
+		};
+		67109AD81C6228AF00C7251E /* CDDDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67109AD91C6228AF00C7251E /* CDDDemoUITests.m */,
+				67109ADB1C6228AF00C7251E /* Info.plist */,
+			);
+			path = CDDDemoUITests;
+			sourceTree = "<group>";
+		};
+		67109AE71C6228FD00C7251E /* CDD */ = {
+			isa = PBXGroup;
+			children = (
+				67109AEB1C622C2200C7251E /* CDDContext.h */,
+				67109AEC1C622C2200C7251E /* CDDContext.m */,
+				67109AEE1C62F93000C7251E /* NSObject+CDD.h */,
+				67109AEF1C62F93000C7251E /* NSObject+CDD.m */,
+				67109AF11C62F97400C7251E /* UIView+CDD.h */,
+				67109AF21C62F97400C7251E /* UIView+CDD.m */,
+				676339D31C7563D300A4F374 /* CDDMutableArray.h */,
+				676339D41C7563D300A4F374 /* CDDMutableArray.m */,
+			);
+			path = CDD;
+			sourceTree = "<group>";
+		};
+		67109AF41C6300BB00C7251E /* DemoController */ = {
+			isa = PBXGroup;
+			children = (
+				67109AFC1C63033B00C7251E /* CDDDemoController.h */,
+				67109AFD1C63033B00C7251E /* CDDDemoController.m */,
+				67109B071C632CA200C7251E /* CDDDemoDataHandler.h */,
+				67109B081C632CA200C7251E /* CDDDemoDataHandler.m */,
+				67109B0A1C632CB500C7251E /* CDDDemoBusinessObject.h */,
+				67109B0B1C632CB500C7251E /* CDDDemoBusinessObject.m */,
+				67109B101C63324A00C7251E /* Protocol */,
+				67109B031C6329AA00C7251E /* ViewModel */,
+				67109B021C6329A400C7251E /* View */,
+			);
+			name = DemoController;
+			sourceTree = "<group>";
+		};
+		67109B021C6329A400C7251E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				67109AFF1C63034E00C7251E /* CDDDemoView.h */,
+				67109B001C63034E00C7251E /* CDDDemoView.m */,
+				67109B231C634A6500C7251E /* CDDDemoInputView.h */,
+				67109B241C634A6500C7251E /* CDDDemoInputView.m */,
+				67109B131C63334900C7251E /* MessageCells */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		67109B031C6329AA00C7251E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				67109B1D1C6336C100C7251E /* ChatMessageBase.h */,
+				67109B1E1C6336C100C7251E /* ChatMessageBase.m */,
+				67109B201C6336DB00C7251E /* ChatMessageText.h */,
+				67109B211C6336DB00C7251E /* ChatMessageText.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		67109B101C63324A00C7251E /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				67109B111C63326800C7251E /* CDDDemoDataHandlerProtocol.h */,
+				67109B121C63327800C7251E /* CDDDemoBusinessObjectProtocol.h */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
+		67109B131C63334900C7251E /* MessageCells */ = {
+			isa = PBXGroup;
+			children = (
+				67109B141C63344200C7251E /* MessageCellBase.h */,
+				67109B151C63344200C7251E /* MessageCellBase.m */,
+				67109B171C63345500C7251E /* MessageCellText.h */,
+				67109B181C63345500C7251E /* MessageCellText.m */,
+			);
+			name = MessageCells;
+			sourceTree = "<group>";
+		};
+		672E89A01C735832008F0EA7 /* UserDetailController */ = {
+			isa = PBXGroup;
+			children = (
+				672E89A11C73585E008F0EA7 /* CDDUserDetailController.h */,
+				672E89A21C73585E008F0EA7 /* CDDUserDetailController.m */,
+				672E89AA1C735AFB008F0EA7 /* CDDUserDetailDataHandler.h */,
+				672E89AB1C735AFB008F0EA7 /* CDDUserDetailDataHandler.m */,
+				672E89AD1C735B1C008F0EA7 /* CDDUserDetailBusinessObject.h */,
+				672E89AE1C735B1C008F0EA7 /* CDDUserDetailBusinessObject.m */,
+				672E89A61C735A9F008F0EA7 /* Protocol */,
+				672E89A51C735A99008F0EA7 /* ViewModel */,
+				672E89A41C735A93008F0EA7 /* View */,
+			);
+			name = UserDetailController;
+			sourceTree = "<group>";
+		};
+		672E89A41C735A93008F0EA7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				672E89A71C735AC4008F0EA7 /* CDDUserDetailView.h */,
+				672E89A81C735AC4008F0EA7 /* CDDUserDetailView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		672E89A51C735A99008F0EA7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				676339D61C75AB6100A4F374 /* UserProfile.h */,
+				676339D71C75AB6100A4F374 /* UserProfile.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		672E89A61C735A9F008F0EA7 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				676339DD1C75BA0F00A4F374 /* CDDUserDetailBusinessObjectProtocol.h */,
+				676339E01C75BAAC00A4F374 /* CDDUserDetailDataHandlerProtocol.h */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
+		CF51AA5EBC841FD21C07C3BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69B41868BD5E74FA109D1FFB /* libPods-CDDDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAD24CA7629DF2F1B5FB7A87 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4A8C0CDA782888958471353 /* Pods-CDDDemo.debug.xcconfig */,
+				8975E7DC82D56E4D93CF4552 /* Pods-CDDDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67109AB01C6228AF00C7251E /* CDDDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67109ADE1C6228AF00C7251E /* Build configuration list for PBXNativeTarget "CDDDemo" */;
+			buildPhases = (
+				47DB8F01C9B870B6585349CB /* Check Pods Manifest.lock */,
+				67109AAD1C6228AF00C7251E /* Sources */,
+				67109AAE1C6228AF00C7251E /* Frameworks */,
+				67109AAF1C6228AF00C7251E /* Resources */,
+				BD2D1CB911BE7D0C6BBE7A98 /* Embed Pods Frameworks */,
+				97168B0B9B07155753AE8CF8 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CDDDemo;
+			productName = CDDDemo;
+			productReference = 67109AB11C6228AF00C7251E /* CDDDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67109AC91C6228AF00C7251E /* CDDDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67109AE11C6228AF00C7251E /* Build configuration list for PBXNativeTarget "CDDDemoTests" */;
+			buildPhases = (
+				67109AC61C6228AF00C7251E /* Sources */,
+				67109AC71C6228AF00C7251E /* Frameworks */,
+				67109AC81C6228AF00C7251E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67109ACC1C6228AF00C7251E /* PBXTargetDependency */,
+			);
+			name = CDDDemoTests;
+			productName = CDDDemoTests;
+			productReference = 67109ACA1C6228AF00C7251E /* CDDDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67109AD41C6228AF00C7251E /* CDDDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67109AE41C6228AF00C7251E /* Build configuration list for PBXNativeTarget "CDDDemoUITests" */;
+			buildPhases = (
+				67109AD11C6228AF00C7251E /* Sources */,
+				67109AD21C6228AF00C7251E /* Frameworks */,
+				67109AD31C6228AF00C7251E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67109AD71C6228AF00C7251E /* PBXTargetDependency */,
+			);
+			name = CDDDemoUITests;
+			productName = CDDDemoUITests;
+			productReference = 67109AD51C6228AF00C7251E /* CDDDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67109AA91C6228AF00C7251E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "gao feng";
+				TargetAttributes = {
+					67109AB01C6228AF00C7251E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					67109AC91C6228AF00C7251E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 67109AB01C6228AF00C7251E;
+					};
+					67109AD41C6228AF00C7251E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 67109AB01C6228AF00C7251E;
+					};
+				};
+			};
+			buildConfigurationList = 67109AAC1C6228AF00C7251E /* Build configuration list for PBXProject "CDDDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67109AA81C6228AF00C7251E;
+			productRefGroup = 67109AB21C6228AF00C7251E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67109AB01C6228AF00C7251E /* CDDDemo */,
+				67109AC91C6228AF00C7251E /* CDDDemoTests */,
+				67109AD41C6228AF00C7251E /* CDDDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67109AAF1C6228AF00C7251E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67109AC41C6228AF00C7251E /* LaunchScreen.storyboard in Resources */,
+				67109AC11C6228AF00C7251E /* Assets.xcassets in Resources */,
+				67109ABF1C6228AF00C7251E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67109AC81C6228AF00C7251E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67109AD31C6228AF00C7251E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47DB8F01C9B870B6585349CB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		97168B0B9B07155753AE8CF8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CDDDemo/Pods-CDDDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD2D1CB911BE7D0C6BBE7A98 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CDDDemo/Pods-CDDDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67109AAD1C6228AF00C7251E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67109ABC1C6228AF00C7251E /* ViewController.m in Sources */,
+				67109AED1C622C2200C7251E /* CDDContext.m in Sources */,
+				672E89AC1C735AFB008F0EA7 /* CDDUserDetailDataHandler.m in Sources */,
+				672E89A91C735AC4008F0EA7 /* CDDUserDetailView.m in Sources */,
+				676339D81C75AB6100A4F374 /* UserProfile.m in Sources */,
+				67109AB91C6228AF00C7251E /* AppDelegate.m in Sources */,
+				67109B1F1C6336C100C7251E /* ChatMessageBase.m in Sources */,
+				67109B011C63034E00C7251E /* CDDDemoView.m in Sources */,
+				67109AF01C62F93000C7251E /* NSObject+CDD.m in Sources */,
+				67109B221C6336DB00C7251E /* ChatMessageText.m in Sources */,
+				67109B0C1C632CB500C7251E /* CDDDemoBusinessObject.m in Sources */,
+				67109B251C634A6500C7251E /* CDDDemoInputView.m in Sources */,
+				67109B191C63345500C7251E /* MessageCellText.m in Sources */,
+				67109B091C632CA200C7251E /* CDDDemoDataHandler.m in Sources */,
+				67109AFE1C63033B00C7251E /* CDDDemoController.m in Sources */,
+				67109B161C63344200C7251E /* MessageCellBase.m in Sources */,
+				67109AF31C62F97400C7251E /* UIView+CDD.m in Sources */,
+				67109AB61C6228AF00C7251E /* main.m in Sources */,
+				672E89AF1C735B1C008F0EA7 /* CDDUserDetailBusinessObject.m in Sources */,
+				676339D51C7563D300A4F374 /* CDDMutableArray.m in Sources */,
+				672E89A31C73585E008F0EA7 /* CDDUserDetailController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67109AC61C6228AF00C7251E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67109ACF1C6228AF00C7251E /* CDDDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67109AD11C6228AF00C7251E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67109ADA1C6228AF00C7251E /* CDDDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67109ACC1C6228AF00C7251E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67109AB01C6228AF00C7251E /* CDDDemo */;
+			targetProxy = 67109ACB1C6228AF00C7251E /* PBXContainerItemProxy */;
+		};
+		67109AD71C6228AF00C7251E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67109AB01C6228AF00C7251E /* CDDDemo */;
+			targetProxy = 67109AD61C6228AF00C7251E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67109ABD1C6228AF00C7251E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67109ABE1C6228AF00C7251E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67109AC21C6228AF00C7251E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67109AC31C6228AF00C7251E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67109ADC1C6228AF00C7251E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67109ADD1C6228AF00C7251E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67109ADF1C6228AF00C7251E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4A8C0CDA782888958471353 /* Pods-CDDDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = CDDDemo/CDDDemo_Prefix.h;
+				INFOPLIST_FILE = CDDDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.music4kid.CDDDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3cc7973c-1532-422b-a480-5e08b9b21815";
+			};
+			name = Debug;
+		};
+		67109AE01C6228AF00C7251E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8975E7DC82D56E4D93CF4552 /* Pods-CDDDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = CDDDemo/CDDDemo_Prefix.h;
+				INFOPLIST_FILE = CDDDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.music4kid.CDDDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3cc7973c-1532-422b-a480-5e08b9b21815";
+			};
+			name = Release;
+		};
+		67109AE21C6228AF00C7251E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CDDDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.music4kid.CDDDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CDDDemo.app/CDDDemo";
+			};
+			name = Debug;
+		};
+		67109AE31C6228AF00C7251E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CDDDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.music4kid.CDDDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CDDDemo.app/CDDDemo";
+			};
+			name = Release;
+		};
+		67109AE51C6228AF00C7251E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CDDDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.music4kid.CDDDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CDDDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		67109AE61C6228AF00C7251E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CDDDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.music4kid.CDDDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CDDDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67109AAC1C6228AF00C7251E /* Build configuration list for PBXProject "CDDDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67109ADC1C6228AF00C7251E /* Debug */,
+				67109ADD1C6228AF00C7251E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67109ADE1C6228AF00C7251E /* Build configuration list for PBXNativeTarget "CDDDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67109ADF1C6228AF00C7251E /* Debug */,
+				67109AE01C6228AF00C7251E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67109AE11C6228AF00C7251E /* Build configuration list for PBXNativeTarget "CDDDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67109AE21C6228AF00C7251E /* Debug */,
+				67109AE31C6228AF00C7251E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67109AE41C6228AF00C7251E /* Build configuration list for PBXNativeTarget "CDDDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67109AE51C6228AF00C7251E /* Debug */,
+				67109AE61C6228AF00C7251E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67109AA91C6228AF00C7251E /* Project object */;
+}
