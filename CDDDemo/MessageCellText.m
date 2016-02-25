@@ -82,19 +82,19 @@
     [_imgAvatar makeConstraints:^(MASConstraintMaker *make) {
         make.width.equalTo(kMessageCellTextAvatarSize);
         make.height.equalTo(kMessageCellTextAvatarSize);
-        make.trailing.equalTo(self.contentView).offset(-10);
+        make.right.equalTo(self.contentView).offset(-10);
         make.top.equalTo(self.contentView);
     }];
     
     [_lbFromName makeConstraints:^(MASConstraintMaker *make) {
-        make.right.equalTo(_imgAvatar.leading).offset(-10);
+        make.right.equalTo(_imgAvatar.left).offset(-10);
         make.top.equalTo(_imgAvatar.top);
         make.height.equalTo(12);
         make.width.equalTo(100);
     }];
     
     [_lbContent makeConstraints:^(MASConstraintMaker *make) {
-        make.right.equalTo(_imgAvatar.leading).offset(-10);
+        make.right.equalTo(_imgAvatar.left).offset(-10);
         make.top.equalTo(_lbFromName.top).offset(10);
         make.height.equalTo(17);
         make.width.equalTo(200);
