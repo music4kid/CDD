@@ -34,7 +34,7 @@
     self.customView = [[CDDDemoView alloc] initWithFrame:self.view.bounds];
     self.view = _customView;
     _customView.context = self.context;
-    [_customView initDemoView];
+    [_customView buildDemoView];
 }
 
 - (void)initContext

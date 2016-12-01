@@ -10,6 +10,6 @@
 
 @interface CDDDemoView : UIView
 
-- (void)initDemoView;
+- (void)buildDemoView;
 
 @end

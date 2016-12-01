@@ -37,7 +37,7 @@
     return self;
 }
 
-- (void)initDemoView
+- (void)buildDemoView
 {
     self.tableView = [[UITableView alloc] initWithFrame:self.bounds];
     self.tableView.clipsToBounds = NO;
